@@ -16,7 +16,6 @@ public class UserServlet extends HttpServlet {
             throws ServletException, IOException {
         req.setAttribute("message", "Welcome to FPT Polytechnic");
 
-
         Map<String, Object> map = new HashMap<>();
         map.put("fullname", "Nguyễn Văn Tèo");
         map.put("gender", "Male");

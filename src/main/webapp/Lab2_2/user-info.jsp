@@ -1,6 +1,5 @@
 <%@page pageEncoding="utf-8" %>
 <b>YOUR INFORMATION:</b>
-
 <ul>
     <li>Fullname: ${user.fullname}</li>
 
